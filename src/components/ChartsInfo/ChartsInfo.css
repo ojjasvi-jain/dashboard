@@ -15,8 +15,15 @@
   margin-bottom: 20px;
 }
 
+.config-office-area.boxed {
+  margin-left: 120px;
+  margin-right: 52px;
+}
+
 .pie-chart-description .boxed {
   min-width: 300px;
+  /* text-align: left; */
+  cursor: pointer;
 }
 .boxed.boxed-project {
   background: aquamarine;

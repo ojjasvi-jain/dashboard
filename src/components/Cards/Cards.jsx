@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import PropTypes from "prop-types";
 import "./Cards.css";
 
 const Cards = ({ cards }) => {
@@ -10,7 +7,7 @@ const Cards = ({ cards }) => {
   return (
     <div className="right-column">
       <ul className="container">
-        {cards.map((card) => {
+        {cards.map((card, i) => {
           return (
             <li>
               <section className="card" key={card.id}>

@@ -16,14 +16,15 @@ const ChartsInfo = ({ allCards, setCards }) => {
 
   const onChangeHandler = (e) => {
     let value = e.target.value;
-    debugger;
     setText({ value });
+  };
+
+  const onBlurHandler = () => {
     setIsEdit(false);
   };
 
   const clickHandler = (e) => {
     console.log(e.target.id);
-    debugger;
     const filterCards = allCards.filter(
       (card) => card.officeId === e.target.id
     );
@@ -48,18 +49,26 @@ const ChartsInfo = ({ allCards, setCards }) => {
           </div>
           <div className="column">
             {isEdit ? (
-              <input value={text.value} onChange={onChangeHandler}></input>
+              <input
+                value={text.value}
+                onChange={onChangeHandler}
+                onBlur={onBlurHandler}
+              ></input>
             ) : (
               <h4>{text.value}</h4>
             )}
 
-            <i
-              onClick={() => setIsEdit(true)}
-              style={{ fontSize: "25px" }}
-              className="'fas fa-edit'"
-            >
-              &#9998;
-            </i>
+            {!isEdit ? (
+              <i
+                onClick={() => setIsEdit(true)}
+                style={{ fontSize: "25px" }}
+                className="'fas fa-edit'"
+              >
+                &#9998;
+              </i>
+            ) : (
+              ""
+            )}
           </div>
         </div>
 

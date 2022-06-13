@@ -42,10 +42,10 @@ function App() {
                 </div>
               </div>
             </div>
-            <div class="boxed boxed-project">Start New Project +</div>
+            <div className="boxed boxed-project">Start New Project +</div>
             <div className="row">
               <div className="column">
-                <div ClassName="left-cloumn">
+                <div className="left-cloumn">
                   <ChartsInfo allCards={initialCards} setCards={setCards} />
                 </div>
               </div>
