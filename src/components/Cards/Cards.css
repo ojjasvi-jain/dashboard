@@ -1,0 +1,121 @@
+ul.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+section.card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
+  height: 100%;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1em;
+  cursor: pointer;
+  border: 1px solid rgba(32, 33, 36, 0.12);
+  background-clip: padding-box;
+  transform: translate(0) scale(1, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  section.card {
+    grid-template-rows: 70% 30%;
+  }
+}
+section.card:hover,
+section.card:focus-within {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+section.card:hover .text-container h3 a {
+  text-decoration: underline;
+}
+section.card:focus-within {
+  box-shadow: 0 0 0 3px #ff71ba, 0 0 0 6px rgba(0, 0, 0, 0.6);
+}
+section.card:focus-within a {
+  outline: 2px solid transparent;
+}
+section.card .text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
+  padding: 1.5em;
+  height: 100%;
+}
+section.card .text-container h3 {
+  padding: 0;
+  color: #403147;
+  font-size: 1.25em;
+  line-height: 1.4375em;
+}
+section.card .text-container h3 a {
+  color: #403147;
+  margin-bottom: 1.5em;
+  text-decoration: none;
+}
+section.card .image-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  text-align: center;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid rgba(32, 33, 36, 0.1);
+}
+section.card .image-container img {
+  max-width: 60%;
+}
+section .card-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.3em 0 0 0;
+}
+section .card-content p {
+  margin: 0;
+  color: #403147;
+}
+section .card-content p.price {
+  font-size: 1em;
+  position: relative;
+  margin-right: 1.125em;
+  color: rgba(64, 49, 71, 0.8);
+}
+section .card-content p.price:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  right: -0.7em;
+  background: rgba(64, 49, 71, 0.4);
+  border-radius: 50%;
+}
+section .card-content p.stock {
+  font-size: 1em;
+  color: rgba(64, 49, 71, 0.8);
+}
+section .card-content p.stock.out {
+  color: #d8474f;
+}
+section .card-content p.description {
+  width: 100%;
+  margin-top: 1em;
+  line-height: 1.375em;
+  color: rgba(64, 49, 71, 0.9);
+  font-size: 0.875em;
+}

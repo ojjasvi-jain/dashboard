@@ -1,0 +1,75 @@
+.pie-chart-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pie-chart-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.boxed {
+  border: 1px solid gainsboro;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.pie-chart-description .boxed {
+  min-width: 300px;
+}
+.boxed.boxed-project {
+  background: aquamarine;
+  float: right;
+  color: white;
+  font-size: large;
+  padding: 10px;
+}
+
+.config-sub-boxed {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: aquamarine;
+  display: block;
+}
+
+.boxed-status {
+  width: 15px;
+  height: 15px;
+  background: #c0392b;
+  display: block;
+  margin: 3px 10px 0 0;
+  float: left;
+  border-radius: 100%;
+}
+
+.blue-status {
+  background: blue;
+}
+.yellow-status {
+  background: yellow;
+}
+.orange-status {
+  background: orange;
+}
+.voilate-status {
+  background: violet;
+}
+.gray-status {
+  background: gray;
+}
+
+.config-office-area-heading {
+  margin-bottom: 10px;
+}
+
+.config-office-area-row {
+  text-align: center;
+}
+
+.config-office-area-description {
+  margin-bottom: 20px;
+  color: gray;
+}

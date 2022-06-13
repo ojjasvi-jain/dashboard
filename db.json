@@ -1,0 +1,133 @@
+{
+  "officeData": [
+    { "id": "OW567892", "name": "Open Workspaces", "color": "blue" },
+    { "id": "CB789023", "name": "Cabins", "color": "yellow" },
+    { "id": "MR567890", "name": "Meeting Rooms", "color": "orange" },
+    { "id": "PS678945", "name": "Public Spaces", "color": "voilate" },
+    { "id": "SS678459", "name": "Support Spaces", "color": "gray" }
+  ],
+
+  "cardsData": [
+    {
+      "id": "1",
+      "title": "Linear workstation",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "OW567892"
+    },
+    {
+      "id": "11",
+      "title": "Linear workstation",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "OW567892"
+    },
+    {
+      "id": "2",
+      "title": "Linear workstation",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "OW567892"
+    },
+    {
+      "id": "3",
+      "title": "Linear workstation",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "OW567892"
+    },
+    {
+      "id": "4",
+      "title": "Cubicle/L-type",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "CB789023"
+    },
+    {
+      "id": "41",
+      "title": "Cubicle/L-type",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "CB789023"
+    },
+    {
+      "id": "5",
+      "title": "Cubicle/L-type",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "CB789023"
+    },
+    {
+      "id": "6",
+      "title": "Cubicle/L-type",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "CB789023"
+    },
+    {
+      "id": "7",
+      "title": "rect rooms ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "MR567890"
+    },
+    {
+      "id": "8",
+      "title": "rect rooms ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "MR567890"
+    },
+    {
+      "id": "9",
+      "title": "rect rooms ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "MR567890"
+    },
+    {
+      "id": "10",
+      "title": "rect rooms ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "MR567890"
+    },
+    {
+      "id": "11",
+      "title": "space war  ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "PS678945"
+    },
+    {
+      "id": "12",
+      "title": "space war  ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "PS678945"
+    },
+    {
+      "id": "13",
+      "title": "space war  ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "PS678945"
+    },
+    {
+      "id": "14",
+      "title": "space war  ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "PS678945"
+    },
+
+    {
+      "id": "15",
+      "title": "support house   ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "SS678459"
+    },
+    {
+      "id": "16",
+      "title": "support house   ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "SS678459"
+    },
+    {
+      "id": "17",
+      "title": "support house   ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "SS678459"
+    },
+    {
+      "id": "18",
+      "title": "support house   ",
+      "discription": " this space is for 2 line short discription",
+      "officeId": "SS678459"
+    }
+  ]
+}
